@@ -1,21 +1,20 @@
 import React from 'react'
 import { Button } from '@mui/material'
 
-const Button = () => {
+const ButtonUi = ({title, upload}) => {
   return (
-    
-      <Button
-        variant="contained"
-        component="label"
-      >
-        Upload File
-        <input
-          type="file"
-          hidden
-          multiple
-        />
-      </Button>
+    <Button
+      variant="contained"
+      component="label"
+    >
+      {title}
+      {upload && <input
+        type="file"
+        hidden
+        multiple
+      />}
+    </Button>
   )
 }
 
-export default Button
+export default ButtonUi;
