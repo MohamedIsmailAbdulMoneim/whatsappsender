@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# WhatsappSender
 
 This project about making an Ui to whatsapp automation. you can add phonenumbers and images or any thing else to send to a contact.
 
