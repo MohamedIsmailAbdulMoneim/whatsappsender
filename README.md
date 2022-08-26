@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project about making an Ui to whatsapp automation. you can add phonenumbers and images or any thing else to send to a contact.
 
 ## Available Scripts
 
